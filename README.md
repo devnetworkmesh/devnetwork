@@ -10,8 +10,8 @@
 * [ ] FIltering profiles based on skills, name, area etc.      
 * [ ] Filetering based on some extensive features (only for premium users).      
 * [ ] Profile comparion       
-*     [ ] Text based comparsion.     
-*     [ ] Visual Comparsion.      
+  * [ ] Text based comparsion.     
+  * [ ] Visual Comparsion.      
 * [ ] contacting developer should become easy.Chat features.        
 
 ## Technologies needed -- Flask, Jekyll, MongoDB, .. 
