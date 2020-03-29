@@ -3,6 +3,9 @@
   
 ## Goals - 
 * [ ] Collecting DEV information.   
+  * [ ] Form filling   
+  * [ ] Linkedin API     
+  * [ ] Github API     
 * [ ] An online profile for DEVs.   
 * [ ] Online Resume based on profile.     
 * [ ] Visual profile with graphs for DEvs.     
