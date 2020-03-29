@@ -2,7 +2,7 @@
   A free online portfolio for developers and hub of developers for Recuiters.
   
 ## Goals - 
-[ ] Collecting DEV information.   
+[] Collecting DEV information.   
 [ ] An online profile for DEVs.   
 [ ] Online Resume based on profile.     
 [ ] Visual profile with graphs for DEvs.     
