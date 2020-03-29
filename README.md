@@ -25,12 +25,12 @@
   + Proficient   
   + Can operate    
   + Just known (or) Familiar with    
-+ Awards & achivements
++ Awards & achivements :star:
 + Certifications
 + Exerience
   - Work     
   - Volunteer
-+ Accomplishments (*-*)
++ Accomplishments :star:
 + Languages
 
 
