@@ -22,14 +22,14 @@
 + Education
 + Projects
 + Skills   
-      + Proficient   
-      + Can operate    
-      + Just known (or) Familiar with    
+  + Proficient   
+  + Can operate    
+  + Just known (or) Familiar with    
 + Awards & achivements
 + Certifications
 + Exerience
-      - Work
-      - Volunteer
+  - Work     
+  - Volunteer
 + Accomplishments (*-*)
 + Languages
 
