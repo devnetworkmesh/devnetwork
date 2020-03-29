@@ -17,8 +17,8 @@
 ## Technologies needed -- Flask, Jekyll, MongoDB, .. 
 
 ### Form details:
-+ FullName
-  Tagline
++ FullName      
++ Profile Tagline     
 + Education
 + Projects
 + Skills   
