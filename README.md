@@ -16,15 +16,15 @@
 
 ## Technologies needed -- Flask, Jekyll, MongoDB, .. 
 
-### Template:
+### Form details:
 + FullName
   Tagline
 + Education
 + Projects
-+ Skills
-      - Proficient
-      - Can operate
-      - Just known (or) Familiar with
++ Skills   
+      + Proficient   
+      + Can operate    
+      + Just known (or) Familiar with    
 + Awards & achivements
 + Certifications
 + Exerience
