@@ -21,7 +21,7 @@
 + Profile Tagline     
 + Education
 + Projects
-+ Skills   
++ Skills  :muscle:
   + Proficient   
   + Can operate    
   + Just known (or) Familiar with    
@@ -30,7 +30,7 @@
 + Exerience
   - Work     
   - Volunteer
-+ Accomplishments :star:
++ Accomplishments :clap:
 + Languages
 
 
