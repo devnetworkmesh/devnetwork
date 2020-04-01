@@ -2,7 +2,7 @@ from flask import render_template, url_for, flash, redirect, request, Blueprint
 from flask_login import login_user, current_user, logout_user, login_required
 from flaskblog import db, bcrypt
 from flaskblog.models import User, Post
-from flaskblog.users.forms import (RegistrationForm, LoginForm, UpdateAccountForm,
+from flaskblog.users.forms import (RegistrationForm, LoginForm, UpdateAccountForm, BioForm,
                                    RequestResetForm, ResetPasswordForm)
 from flaskblog.users.utils import save_picture, send_reset_email
 
@@ -106,3 +106,23 @@ def reset_token(token):
         flash('Your password has been updated! You are now able to log in', 'success')
         return redirect(url_for('users.login'))
     return render_template('reset_token.html', title='Reset Password', form=form)
+
+@users.route("/update", methods=['GET', 'POST'])
+@login_required
+def bio():
+    form = BioForm()
+    if form.validate_on_submit():
+        if form.picture.data:
+            picture_file = save_picture(form.picture.data)
+            current_user.image_file = picture_file
+        current_user.username = form.username.data
+        current_user.about = form.about.data
+        db.session.commit()
+        flash('Your account has been updated!', 'success')
+        return redirect(url_for('users.account'))
+    elif request.method == 'GET':
+        form.username.data = current_user.username
+        form.email.data = current_user.email
+    image_file = url_for('static', filename='profile_pics/' + current_user.image_file)
+    return render_template('account.html', title='Account',
+                           image_file=image_file, form=form)

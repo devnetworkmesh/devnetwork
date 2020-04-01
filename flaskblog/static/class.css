@@ -15,11 +15,11 @@
   }
   
   .content-section {
-    background: #ffffff;
-    padding: 10px 20px;
-    border: 1px solid #dddddd;
-    border-radius: 3px;
-    margin-bottom: 20px;
+    background: #fff;
+  margin-bottom: 24px;
+  padding: 24px;
+  border-radius: 20px;
+  transition: transform 0.1s;
   }
   
   .article-title {
